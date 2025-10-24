@@ -86,6 +86,7 @@ export class BackstageSecretAddOn implements blueprints.ClusterAddOn {
                         target: {
                             name: this.props.databaseSecretTargetName,
                         },
+// Change name and push github, and other secrets
                         data: [
                             {
                                 secretKey: "POSTGRES_PASSWORD",
